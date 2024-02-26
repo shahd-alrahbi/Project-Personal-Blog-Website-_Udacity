@@ -1,0 +1,24 @@
+@import 'main.css';
+@import 'layout.css';
+@import 'base.css';
+#title {
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.card p {
+    line-height: 1.2;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    max-width: 80%; 
+}
+#Pp {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}

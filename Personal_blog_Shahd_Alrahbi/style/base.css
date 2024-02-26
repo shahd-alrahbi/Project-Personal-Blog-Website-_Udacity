@@ -1,0 +1,36 @@
+@import 'main.css';
+@import 'layout.css';
+@import 'typography.css';
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header a {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card_lang {
+        max-width: 100%;
+    }
+
+    #wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

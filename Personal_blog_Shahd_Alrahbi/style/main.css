@@ -1,0 +1,49 @@
+@import 'base.css';
+@import 'layout.css';
+@import 'typography.css';
+#pp {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.social-sharing {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.social-sharing a img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-sharing a img:hover {
+    transform: scale(1.1);
+}
+figure {
+    border: 1px #cccccc solid;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-style: italic;
+    text-align: center;
+  }
+
+  #img1{
+    width: 100%;
+  }
